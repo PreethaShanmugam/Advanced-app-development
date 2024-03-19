@@ -1,0 +1,42 @@
+.dashboard {
+    display: flex;
+    justify-content: space-between;/* Light grey background */
+    padding: 20px;
+    margin-top: -19%;
+  }
+  
+  .dashboard-container {
+    display: flex;
+    align-items: center;
+    width:300px;
+    height:190px;
+    border-radius: 0.5em;
+    border: 2px solid black; 
+  }
+  
+  .dashboard-gap {
+    width: 90px; /* Adjust the gap width between containers */
+  }
+  
+  .dashboard-image {
+    width: 90px; /* Adjust image size as needed */
+    height: 90px;
+    margin-right: 10px; /* Add some spacing between image and text */
+  }
+  
+  .dashboard-text {
+    margin: 10px; /* Remove default margin */
+    color:blue; /* Black text color */
+    font-size: 19px; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;/* Adjust font size as needed */
+  }
+  .num
+  {
+    color:green;
+  }
+.position{
+  position:absolute;
+  top:55%;
+  left:15%;
+}
+  

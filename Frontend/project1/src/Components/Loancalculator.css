@@ -1,0 +1,71 @@
+.loan-calculator {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px; /* Adjust max-width as needed */
+    margin: auto;
+    position:absolute;
+    left:15%;
+    top:10%;
+  }
+  
+  .calculator-container {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .summary-container {
+    margin-top: 10px;
+    position:absolute;
+    top:10%;
+    left:55%;
+  }
+  
+  .chart-container {
+    width: 100%;
+    position:absolute;
+    top:75%;
+    left:20%;
+  }
+  
+  .chart {
+    width: 100%;
+    max-height: 400px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .input-field {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  h2 {
+    margin: 0;
+    padding-top: 15px; /* Add padding to top of h2 */
+  }
+  
+  h3 {
+    margin: 10px 0;
+  }
+  
+  .summary p {
+    margin: 5px 0;
+  }
+  

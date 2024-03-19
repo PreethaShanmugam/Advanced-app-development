@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400&display=swap');
 
 .nav {
-  background-color:lightgreen;
+  background-color:white;
+  border-bottom: 2px solid black;
   height: 72px;
   position: fixed;
   top: 0;
@@ -116,7 +117,7 @@
 }
 
  .lname{
-  margin-top: 27px;
+  margin-top: 10px;
   margin-left: 49px;
   text-transform: uppercase;
   text-align: center;

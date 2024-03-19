@@ -1,0 +1,572 @@
+ .b{
+    background-color:white;
+    width:1050px;
+    height: 640px;
+    margin: 5em auto;
+    position:absolute;
+    border: 0px solid black;
+    right: 10%;
+    top:9%;
+} 
+.containerApp
+{
+    background-color:white;
+    width:900px;
+    height: 900px;
+    border: 2px solid black;
+    border-radius:0.3em;
+    margin-left: 9%;
+    margin-top: -3%;
+    
+
+}
+
+.passhead1 {
+    color: rgb(27, 91, 194);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    position:absolute;
+    top:-10%;
+    left:5%;
+}
+.passhead {
+    color: rgb(27, 91, 194);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    position:absolute;
+    top:3%;
+    left:10%;
+}
+
+.passname1 {
+width:250px;
+/* color: rgb(38, 50, 56); */
+color:black;
+font-weight: 700;
+
+font-size: 14px;
+letter-spacing: 1px;
+padding: 10px 20px;
+border: none;
+border-radius:0.3em;
+outline: none;
+box-sizing: border-box;
+border: 2px solid black;
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+position:absolute;
+top:17%;
+right:55%;
+font-family: 'Ubuntu', sans-serif;
+}
+
+form.form1 {
+    padding-top: 40px;
+}
+
+.passage2{
+        width: 250px;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+padding: 10px 20px;
+border: none;
+border-radius: 0.3em;
+outline: none;
+box-sizing: border-box;
+border: 2px solid black;
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+position:absolute;
+top:29%;
+right:55%;
+margin-bottom: 1px;
+font-family: 'Ubuntu', sans-serif;
+}
+.aadhar3{
+    width:250px;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0.3em;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    position:absolute;
+    top:41%;
+    right:55%;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    
+    form.form1 {
+        padding-top: 40px;
+    }
+    
+    .email4{
+            width:250px;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0.3em;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    position:absolute;
+    top:53%;
+    right:55%;
+    margin-bottom: 1px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    .passmobile5{
+        width: 250px;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+padding: 10px 20px;
+border: none;
+border-radius: 0.3em;
+outline: none;
+box-sizing: border-box;
+border: 2px solid black;
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+position:absolute;
+top:65%;
+right:55%;
+margin-bottom: 1px;
+font-family: 'Ubuntu', sans-serif;
+}
+.passaddress6{
+    width: 250px;
+color: rgb(38, 50, 56);
+font-weight: 700;
+font-size: 14px;
+letter-spacing: 1px;
+padding: 10px 20px;
+border: none;
+border-radius: 0.3em;
+outline: none;
+box-sizing: border-box;
+border: 2px solid black;
+margin-bottom: 50px;
+margin-left: 46px;
+text-align: center;
+position:absolute;
+top:77%;
+right:55%;
+margin-bottom: 1px;
+font-family: 'Ubuntu', sans-serif;
+}
+
+    
+
+.un:focus, .pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18) !important;
+    
+}
+
+.passsumit {
+  cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #0080ff,#0040ff);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 35%;
+    font-size: 13px;
+    right:39%;
+    position:absolute;
+    top:150%;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+
+a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #E1BEE7;
+    text-decoration: none
+}
+
+@media (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+    }
+}
+.passname7 {
+    width:250px;
+    /* color: rgb(38, 50, 56); */
+    color:black;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: none;
+    border-radius:0.3em;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    position:absolute;
+    top:17%;
+    right:13%;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    
+    form.form1 {
+        padding-top: 40px;
+    }
+    
+    .passage8{
+            width: 250px;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0.3em;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    position:absolute;
+    top:29%;
+    right:13%;
+    margin-bottom: 1px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    .aadhar9{
+        width:250px;
+        color: rgb(38, 50, 56);
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 0.3em;
+        outline: none;
+        box-sizing: border-box;
+        border: 2px solid black;
+        margin-bottom: 50px;
+        margin-left: 46px;
+        text-align: center;
+        position:absolute;
+        top:41%;
+        right:13%;
+        font-family: 'Ubuntu', sans-serif;
+        }
+        
+        form.form1 {
+            padding-top: 40px;
+        }
+        
+        .email10{
+                width:250px;
+        color: rgb(38, 50, 56);
+        font-weight: 700;
+        font-size: 14px;
+        letter-spacing: 1px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 0.3em;
+        outline: none;
+        box-sizing: border-box;
+        border: 2px solid black;
+        margin-bottom: 50px;
+        margin-left: 46px;
+        text-align: center;
+        position:absolute;
+        top:53%;
+        right:13%;
+        margin-bottom: 1px;
+        font-family: 'Ubuntu', sans-serif;
+        }
+        .passmobile11{
+            width: 250px;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0.3em;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    position:absolute;
+    top:65%;
+    right:13%;
+    margin-bottom: 1px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    .passaddress12{
+        width: 250px;
+    color:black;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    /* background: rgba(136, 126, 126, 0.04); */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0.3em;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    position:absolute;
+    top:77%;
+    right:13%;
+    margin-bottom: 1px;
+    font-family: 'Ubuntu', sans-serif;
+    }
+    .passhead2 {
+    color: rgb(27, 91, 194);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+}
+
+#loanAmount,
+#loanDuration,
+#loanType {
+    width: 250px;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0.3em;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    margin-left: 46px;
+    text-align: center;
+    position: absolute;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#loanAmount {
+    top: 97%;
+    right: 55%;
+}
+
+#loanDuration {
+    top: 109%;
+    right: 55%;
+}
+
+#loanType {
+    top: 121%;
+    right: 55%;
+}
+
+.passsumit {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #0080ff, #0040ff);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 35%;
+    font-size: 13px;
+    right: 39%;
+    position: absolute;
+    top: 130%;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+    }
+}
+.passhead2 {
+    color: rgb(27, 91, 194);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    font-size: 23px;
+    position: absolute;
+    top: 85%;
+    left: 10%;
+}
+
+.loan-label {
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    position: absolute;
+}
+
+#loanAmountLabel {
+    top: 97%;
+    left: 10%;
+}
+
+#loanDurationLabel {
+    top: 109%;
+    left: 10%;
+}
+
+#loanTypeLabel {
+    top: 121%;
+    left: 10%;
+}
+
+#loanAmount,
+#loanDuration,
+#loanType {
+    width: 250px;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 0.3em;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    position: absolute;
+    right: 55%;
+}
+
+#loanAmount {
+    top: 97%;
+}
+
+#loanDuration {
+    top: 109%;
+}
+
+#loanType {
+    top: 121%;
+}
+
+.passsumit {
+    cursor: pointer;
+    border-radius: 5em;
+    color: #fff;
+    background: linear-gradient(to right, #0080ff, #0040ff);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 35%;
+    font-size: 13px;
+    right: 39%;
+    position: absolute;
+    top: 130%;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+
+@media (max-width: 600px) {
+    .main {
+        border-radius: 0px;
+    }
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-heading {
+    text-align: center;
+    color: #007bff;
+    font-size: 24px;
+    margin-top: 20%;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .input-field2 {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .submit-btn {
+    width: 120px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 auto; /* Center the button */
+  padding: 10px;
+  }
+  
+  .submit-btn:hover {
+    background-color: #0056b3;
+  }
+  .section-heading {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+    

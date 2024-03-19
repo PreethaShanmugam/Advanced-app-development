@@ -1,0 +1,30 @@
+.application-table {
+    width: 1000px;
+    position:relative;
+    border-collapse: collapse;
+  }
+  
+  .application-table th, .application-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .application-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .new-application-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .new-application-btn:hover {
+    background-color: #0056b3;
+  }
+  

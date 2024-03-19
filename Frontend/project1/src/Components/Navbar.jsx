@@ -24,17 +24,15 @@ const Navbar = () => {
               <div className="top-bar">
                 <ul>
                   <li className="li-elements">
-                    <Link to="/faq">FAQ'S</Link>
-                  </li>
-                  <li className="li-elements">
-                    <Link to="/about">About</Link>
-                  </li>
-                  <li className="li-elements">
-                    <Link to="/register">Register</Link>
+                    <Link to="/loancalculator">Loancalculator</Link>
                   </li>
                   
                   <li className="li-elements">
-                    <Link to="/login">Login</Link>
+                    <Link to="/Signup">Register</Link>
+                  </li>
+                  
+                  <li className="li-elements">
+                    <Link to="/Signin">Login</Link>
                   </li>
                   
                   
