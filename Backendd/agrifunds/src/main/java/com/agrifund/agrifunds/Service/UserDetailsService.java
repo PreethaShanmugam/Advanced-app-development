@@ -5,8 +5,10 @@ import org.springframework.stereotype.Service;
 
 import com.agrifund.agrifunds.Model.UserDetails;
 import com.agrifund.agrifunds.Repository.UserDetailsRepository;
+import com.agrifund.agrifunds.Model.Users;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class UserDetailsService {
@@ -46,5 +48,17 @@ public class UserDetailsService {
         } else {
             return false;
         }
+    }
+    public Users getByEmail(String email) {
+        if (email == null || email.isEmpty()) {
+            throw new IllegalArgumentException("Email cannot be null or empty");
+        }
+                Optional<Users> user = userDetailsRepository.findByEmail(email);
+        
+        if (user == null) {
+            throw new IllegalArgumentException("User with email " + email + " not found");
+        }
+        
+        return user.get();
     }
 }

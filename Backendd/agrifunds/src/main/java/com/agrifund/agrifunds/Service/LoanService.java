@@ -17,7 +17,7 @@ public class LoanService {
 
     public Loan approveLoan(Long loanId) throws Exception {
         Loan loan = loanRepository.findById(loanId)
-                .orElseThrow(() -> new Exception("Loan not found"));
+                                  .orElseThrow(() -> new Exception("Loan not found"));
         if (!loan.getStatus().equals("Approved")) {
             loan.setStatus("Approved");
             loan.setDueAmount(loan.getAmount());
@@ -28,7 +28,7 @@ public class LoanService {
 
     public Loan denyLoan(Long loanId) throws Exception {
         Loan loan = loanRepository.findById(loanId)
-                .orElseThrow(() -> new Exception("Loan not found"));
+                                  .orElseThrow(() -> new Exception("Loan not found"));
         if (!loan.getStatus().equals("Denied")) {
             loan.setStatus("Denied");
             loanRepository.save(loan);
@@ -75,3 +75,4 @@ public class LoanService {
         loanRepository.deleteById(id);
     }
 }
+

@@ -1,4 +1,4 @@
-package dto;
+package com.agrifund.agrifunds.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -7,9 +7,9 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@NoArgsConstructor
 @AllArgsConstructor
-public class UpdatePasswordRequest {
+@NoArgsConstructor
+public class ForgetPasswordRequest {
     private String email;
-    private String newPassword;
+
 }
