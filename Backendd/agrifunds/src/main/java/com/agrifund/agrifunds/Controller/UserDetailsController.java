@@ -6,7 +6,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import com.agrifund.agrifunds.Model.UserDetails;
-import com.agrifund.agrifunds.Service.UserDetailsService;
+import com.agrifund.agrifunds.Service.UserDetailsServices;
 
 import java.util.List;
 
@@ -14,10 +14,10 @@ import java.util.List;
 @RequestMapping("/api/userdetails")
 public class UserDetailsController {
 
-    private final UserDetailsService userDetailsService;
+    private final UserDetailsServices userDetailsService;
 
     @Autowired
-    public UserDetailsController(UserDetailsService userDetailsService) {
+    public UserDetailsController(UserDetailsServices userDetailsService) {
         this.userDetailsService = userDetailsService;
     }
 

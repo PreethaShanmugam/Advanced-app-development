@@ -11,12 +11,12 @@ import java.util.List;
 import java.util.Optional;
 
 @Service
-public class UserDetailsService {
+public class UserDetailsServices {
 
     private final UserDetailsRepository userDetailsRepository;
 
     @Autowired
-    public UserDetailsService(UserDetailsRepository userDetailsRepository) {
+    public UserDetailsServices(UserDetailsRepository userDetailsRepository) {
         this.userDetailsRepository = userDetailsRepository;
     }
 
